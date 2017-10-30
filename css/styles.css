@@ -1,0 +1,78 @@
+body{
+	margin: 25%;
+}
+
+.button{
+	height: 50px;
+	background-color: grey;
+	text-align: center;
+	font-size: 30px;
+	margin: 30px auto;
+	border-radius: 2px;
+	line-height: 50px;
+}
+
+.dice_bucket{
+	text-align: center;
+	/*width: 150px;*/
+	margin: 0 auto;
+}
+
+.die{
+	color: white;
+	height: 50px;
+	min-width: 50px;
+	display: inline-block;
+	margin: 10px;
+	font-size: 30px;
+	border-radius: 5px;
+}
+
+.black{
+	background-color: black;
+}
+
+.ghost_black{
+	background-color: rgb(100, 100, 100);
+}
+
+.red{
+	background-color: red;
+}
+
+.ghost_red{
+	background-color: rgb(255, 100, 100);
+}
+
+.number{
+	line-height: 50px;
+	margin: 0px 7px;
+}
+
+#black_max, #red_max{
+	color: white;
+	height: 50px;
+	width: 50px;
+	border: none;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+	font-size: 30px;
+	border-radius: 5px;
+}
+
+#black_max{
+	background-color: black;
+}
+
+#red_max{
+	background-color: red;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+
+/*.setting{
+	display: hidden;
+}*/

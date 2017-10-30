@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+  		<meta charset="utf-8">
+  		<title>Flashpoint Dice Roller</title>
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<link rel="stylesheet" href="css/normalize.css">
+  		<link rel="stylesheet" href="css/styles.css">
+  		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
+  		<link rel="stylesheet" href="css/responsive.css">
+	</head>
+
+	<body>
+		
+		<header>
+			<div class="roll button">
+				Roll
+			</div>
+
+			<div class="settings button">
+				<img src="images/gear.png" alt="settings">
+			</div>
+
+			<div class="setting">
+				d<input type="number" id="black_max" required placeholder="8"></p>
+				d<input type="number" id="red_max" required placeholder="6"></p>
+
+				<div class="reset">
+					Clear Roll History
+				</div>
+			</div>
+		</header>
+
+		<div class="dice_bucket">
+			<div class = "black die">
+				<div class = "number">d8</div>
+			</div>
+
+			<div class = "red die">
+				<div class = "number">d6</div>
+			</div>
+
+			<div class = "graveyard"></div>
+		</div>
+		
+		<footer>
+
+		</footer>
+
+		<script src="js/jquery-1.12.2.min.js"></script>
+		<script src="js/scripts.js"></script>
+
+	</body>
+
+</html>
